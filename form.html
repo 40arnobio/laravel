@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>teste</title>
+</head>
+<body>
+	
+	<input type="number" name="numberUser" id="numberUser" value="1" onchange="criar()"><br>
+	<br><br>
+  <form method="post" action="iarray.php">
+  <!--<div id="form"></div>-->
+
+		<input type="text" name="usuario[0][nome]"><br>
+		<input type="text" name="usuario[0][telefone]"><br>
+		<input type="text" name="usuario[0][email]"><br><br>
+		
+		<input type="text" name="usuario[1][nome]"><br>
+		<input type="text" name="usuario[1][telefone]"><br>
+		<input type="text" name="usuario[1][email]"><br><br>	
+
+
+		<input type="text" name="usuario[2][nome]"><br>
+		<input type="text" name="usuario[2][telefone]"><br>
+		<input type="text" name="usuario[2][email]"><br>		
+  
+  <input type="submit" value="Enviar">
+  </form>
+
+</body>
+</html>
